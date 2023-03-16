@@ -43,5 +43,15 @@ a {
   display: flex;
 }
 
+.project {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #92cbcd;
+}
+
+.project p {
+  text-align: left;
+}
+
 #main-project {
 }
