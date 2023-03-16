@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4rem;
+  background-color: #92cbcd;
+  color: #31343d;
+  padding-left: 5%;
+}
+
+a {
+  color: #92cbcd;
+  text-decoration: none;
+  position: relative;
+  border-bottom: 5px solid #92cbcd;
+  padding: 0 10px 0;
+  display: inline-block;
+  line-height: 3rem;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: #31343d;
+  padding: 1% 0%;
+}
+
+.nav {
+  font-size: 1.75rem;
+  color: #92cbcd;
+  padding-right: 5%;
+}
+
+.nav li {
+  display: inline;
+  margin: 0.5rem;
+}
+
+.content-brick {
+  display: flex;
+}
+
+#main-project {
+}
