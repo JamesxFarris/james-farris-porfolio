@@ -1,7 +1,10 @@
+/* Set border box and font-family */
 * {
   box-sizing: border-box;
+  font-family: "Helvetica", "Arial Narrow", Arial, sans-serif;
 }
 
+/* Style overall elements within the page */
 h1 {
   font-size: 4rem;
   background-color: #92cbcd;
@@ -18,8 +21,22 @@ img {
 p {
   font-family: "Helvetica", "Arial Narrow", Arial, sans-serif;
   font-size: large;
+  word-spacing: 5px;
 }
 
+span {
+  font-size: 250%;
+}
+
+h3 {
+  display: inherit;
+  background-color: #92cbcd;
+  padding-bottom: 3%;
+  font-size: 200%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+/* Navigation bar styling */
 .nav a {
   color: #92cbcd;
   text-decoration: none;
@@ -45,33 +62,52 @@ p {
   padding-right: 5%;
 }
 
+/* Adjusts spacing  */
 .nav li {
   display: inline;
   margin: 0.5rem;
 }
 
+/* Styling of the overall boxes */
 .wrapper {
   margin: auto;
   width: 70%;
   padding-left: 10%;
 }
 
-.main {
-  padding: 1% 1% 1% 0.5%;
-}
-
+/* Seperates the page into individual sections */
 .block {
   margin: 5% 2%;
+  border-left: 5px groove #1b395d;
+  padding-left: 3%;
 }
 
+/* Changes the main project */
+.big-project {
+  padding: 1% 1% 1% 0.5%;
+  position: relative;
+}
+
+/* Parent container of small projects */
 .flex-projects {
   display: grid;
   grid-template-columns: 50% 50%;
   margin: auto;
 }
 
-.project {
+/* Changes individual project */
+.small-project {
   height: 200px;
   margin: 5px;
   width: 97%;
+  position: relative;
+}
+
+/* Changes text over the boxes */
+.text-block {
+  position: absolute;
+  bottom: 10%;
+  background-color: #92cbcd;
+  color: #1b395d;
+  padding: 2% 2%;
 }
