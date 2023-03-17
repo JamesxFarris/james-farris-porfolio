@@ -1,3 +1,5 @@
+/* This is not the most responsive website I've ever built, thats for sure! :( */
+
 /* Set border box and font-family */
 * {
   box-sizing: border-box;
@@ -28,7 +30,19 @@ span {
   font-size: 250%;
 }
 
-h3 {
+.banner-text {
+  display: inherit;
+  background-color: #92cbcd;
+  font-size: 250%;
+  position: absolute;
+  text-align: right;
+  bottom: 10%;
+  left: 75%;
+  background-color: #92cbcd;
+  color: #31343d;
+}
+
+h4 {
   display: inherit;
   background-color: #92cbcd;
   padding-bottom: 3%;
@@ -37,7 +51,7 @@ h3 {
 }
 
 /* Navigation bar styling */
-.nav a {
+.navigation a {
   color: #92cbcd;
   text-decoration: none;
   position: relative;
@@ -56,16 +70,27 @@ h3 {
   padding: 1% 0%;
 }
 
-.nav {
+.navigation {
   font-size: 1.75rem;
   color: #92cbcd;
   padding-right: 5%;
 }
 
 /* Adjusts spacing  */
-.nav li {
+.navigation li {
   display: inline;
   margin: 0.5rem;
+}
+
+.banner {
+  background-color: #1b395d;
+  width: 100%;
+  height: 200px;
+  position: relative;
+}
+
+.banner img {
+  border-style: none;
 }
 
 /* Styling of the overall boxes */
