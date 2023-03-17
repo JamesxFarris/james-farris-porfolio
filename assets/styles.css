@@ -136,3 +136,17 @@ h4 {
   color: #1b395d;
   padding: 2% 2%;
 }
+
+#contact-me {
+  display: flex;
+  justify-content: space-around;
+  padding: 5% 5% 3% 5%;
+}
+
+#contact-me a {
+  text-decoration: none;
+  border-bottom: 5px groove #1b395d;
+  color: black;
+  line-height: 2rem;
+  font-size: larger;
+}
