@@ -29,6 +29,14 @@ span {
   font-size: 250%;
 }
 
+h4 {
+  display: inherit;
+  background-color: #92cbcd;
+  padding-bottom: 3%;
+  font-size: 200%;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
 .banner-text {
   display: inherit;
   background-color: #92cbcd;
@@ -42,14 +50,6 @@ span {
   padding: 1%;
 }
 
-h4 {
-  display: inherit;
-  background-color: #92cbcd;
-  padding-bottom: 3%;
-  font-size: 200%;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-}
-
 /* Navigation bar styling */
 .navigation a {
   color: #92cbcd;
@@ -59,9 +59,12 @@ h4 {
   padding: 0 10px 0;
   display: inline-block;
   line-height: 3rem;
-  font-family: "Playfair", "Montserrat", sans-serif;
+  transition: all 0.2s ease-in-out;
 }
 
+.navigation a:hover {
+  transform: scale(1.1);
+}
 .site-header {
   display: flex;
   justify-content: space-between;
@@ -102,7 +105,19 @@ h4 {
   padding-left: 10%;
 }
 
-/* Side text for overall boxes */
+.small-project img,
+.big-project img {
+  opacity: 0.5;
+  transition: 1s ease;
+}
+
+.small-project img:hover,
+.big-project img:hover {
+  opacity: 1;
+  transition: 1s ease;
+}
+
+/*text for overall boxes */
 .side-text {
   font-size: 400%;
   text-align: right;
