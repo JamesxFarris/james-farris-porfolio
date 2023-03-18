@@ -3,7 +3,7 @@
 /* Set border box and font-family */
 * {
   box-sizing: border-box;
-  font-family: "Helvetica", "Arial Narrow", Arial, sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 /* Style overall elements within the page */
@@ -21,7 +21,6 @@ img {
 }
 
 p {
-  font-family: "Helvetica", "Arial Narrow", Arial, sans-serif;
   font-size: large;
   word-spacing: 5px;
 }
@@ -35,11 +34,12 @@ span {
   background-color: #92cbcd;
   font-size: 250%;
   position: absolute;
-  text-align: right;
   bottom: 10%;
   left: 75%;
   background-color: #92cbcd;
   color: #31343d;
+  border-radius: 25px;
+  padding: 1%;
 }
 
 h4 {
@@ -59,6 +59,7 @@ h4 {
   padding: 0 10px 0;
   display: inline-block;
   line-height: 3rem;
+  font-family: "Playfair", "Montserrat", sans-serif;
 }
 
 .site-header {
@@ -109,8 +110,15 @@ h4 {
     "Lucida Sans", Arial, sans-serif;
 }
 
+#contact-text {
+  left: 8%;
+}
+
 .side-block {
   position: absolute;
+  left: 13%;
+  color: #1b395d;
+  outline: #31343d;
 }
 
 /* Seperates the page into individual sections */
